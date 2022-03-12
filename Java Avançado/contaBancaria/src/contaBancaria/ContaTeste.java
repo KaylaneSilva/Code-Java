@@ -8,11 +8,17 @@ public class ContaTeste {
 		conta.saldo = 4_000.00;
 		conta.exibesaldo();
 		
-		conta.saque(2000);
-		conta.exibesaldo();
+//		conta.saque(2000);
+//		conta.exibesaldo();
+//		
+//		conta.deposito(8000);
+//		conta.exibesaldo();
 		
-		conta.deposito(8000);
-		conta.exibesaldo();
+		Conta destino = new Conta();
+		destino.cliente = "Carlos";
+		destino.saldo = 5_000.00;
+		destino.exibesaldo();
+		
 	}
 
 }
