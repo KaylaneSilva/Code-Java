@@ -14,4 +14,9 @@ public class Conta {
 	 saldo += valor;
  }
  
+ void transferenciaValor(Conta destino, double valor) {
+	 this.saque(valor);
+	 destino.deposito(valor);
+ }
+ 
 }
