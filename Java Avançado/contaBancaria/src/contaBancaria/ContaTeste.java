@@ -8,7 +8,8 @@ public class ContaTeste {
 		conta.saldo = 4_000.00;
 		conta.exibesaldo();
 		
-		
+		conta.saque(2000);
+		conta.exibesaldo();
 	}
 
 }
