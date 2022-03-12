@@ -10,4 +10,8 @@ public class Conta {
 	  saldo-= valor;
  }
  
+ void deposito(double valor) {
+	 saldo += valor;
+ }
+ 
 }
