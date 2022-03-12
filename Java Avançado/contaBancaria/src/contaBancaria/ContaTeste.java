@@ -10,6 +10,9 @@ public class ContaTeste {
 		
 		conta.saque(2000);
 		conta.exibesaldo();
+		
+		conta.deposito(8000);
+		conta.exibesaldo();
 	}
 
 }
